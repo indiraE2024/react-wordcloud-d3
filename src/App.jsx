@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import WordCloud from './WordCloud';
+import './WordCloud.css';
 
 const App = () => {
   const [data, setData] = useState([]);
